@@ -9,3 +9,7 @@ data/
 .idea/modules.xml
 .idea/vcs.xml
 .idea
+
+.vscode/
+model/
+tensorboard_summary/

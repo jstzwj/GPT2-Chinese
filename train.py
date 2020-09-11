@@ -42,7 +42,7 @@ def build_files(data_path, tokenized_data_path, num_pieces, full_tokenizer, min_
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--device', default='0,1,2,3', type=str, required=False, help='设置使用哪些显卡')
-    parser.add_argument('--model_config', default='config/model_config_small.json', type=str, required=False,
+    parser.add_argument('--model_config', default='config/model_config_mini.json', type=str, required=False,
                         help='选择模型参数')
     parser.add_argument('--tokenizer_path', default='cache/vocab_small.txt', type=str, required=False, help='选择词库')
     parser.add_argument('--raw_data_path', default='data/train.json', type=str, required=False, help='原始训练语料')
